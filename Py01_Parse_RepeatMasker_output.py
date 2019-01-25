@@ -5,7 +5,7 @@ from operator import itemgetter
 import re
 import subprocess
 
-Error = "usage: \n  python Py01_Parse_output.py  input.tbl > input.summary"
+Error = "usage: \n  python Py01_Parse_output.py  input.out > input.summary"
 
 if len(sys.argv) < 2:
     sys.exit(Error)
